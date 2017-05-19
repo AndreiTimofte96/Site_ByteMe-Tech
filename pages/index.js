@@ -14,7 +14,9 @@ import StickyHeader from '../components/stickyHeader.js'
 const Index = () => (
 
   <HomeLayout>
+    <title>ByteMe-Tech</title>
     <Home />
+
     <StickyHeader />
     <About />
     <Services />
