@@ -2,7 +2,9 @@ import Link from 'next/link'
 
 const Technologies = () => (
 
+
 	<section id="technologies">
+		<title>ByteMe-Tech</title>
 	    <div className="container wow fadeInUp">
 	      <div className="row">
 	        <div className="col-md-12">

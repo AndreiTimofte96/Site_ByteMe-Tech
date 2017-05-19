@@ -9,6 +9,7 @@ const Home = () => (
 	    <link href="static/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
 	    <link href="static/lib/animate-css/animate.min.css" rel="stylesheet"/>
 	    <link href="static/css/style.css" rel="stylesheet"/>
+	    <title>ByteMe-Tech</title>
 	    
 	    <section id="hero">
 	      <div className="hero-container">

@@ -2,7 +2,9 @@ import Link from 'next/link'
 
 const Contact = () => (
 
+
 	<section id="contact">
+		<title>ByteMe-Tech</title>
 	    <div className="container wow fadeInUp">
 	      <div className="row">
 	        <div className="col-md-12">
