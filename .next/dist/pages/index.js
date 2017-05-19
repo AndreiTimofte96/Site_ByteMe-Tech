@@ -52,10 +52,13 @@ var _header = require('../components/header.js');
 
 var _header2 = _interopRequireDefault(_header);
 
+var _stickyHeader = require('../components/stickyHeader.js');
+
+var _stickyHeader2 = _interopRequireDefault(_stickyHeader);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Index = function Index() {
-  return _react2.default.createElement(_homeLayout2.default, null, _react2.default.createElement(_Home2.default, null), _react2.default.createElement(_header2.default, null), _react2.default.createElement(_About2.default, null), _react2.default.createElement(_Services2.default, null), _react2.default.createElement(_Technologies2.default, null), _react2.default.createElement(_Team2.default, null), _react2.default.createElement(_Contact2.default, null), _react2.default.createElement(_footer2.default, null));
+  return _react2.default.createElement(_homeLayout2.default, null, _react2.default.createElement(_Home2.default, null), _react2.default.createElement(_stickyHeader2.default, null), _react2.default.createElement(_About2.default, null), _react2.default.createElement(_Services2.default, null), _react2.default.createElement(_Technologies2.default, null), _react2.default.createElement(_Team2.default, null), _react2.default.createElement(_Contact2.default, null), _react2.default.createElement(_footer2.default, null));
 };
-
 exports.default = Index;

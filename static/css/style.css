@@ -301,6 +301,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
+
 /* Nav Meu Styling */
 .nav-menu a {
   padding: 10px 15px;
@@ -342,6 +344,19 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu ul ul {
   margin: 0;
 }
+
+.nav-placeholder{
+  margin: 0 0 40px 0;
+}
+.fixed{
+  z-index: 10020;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+
 
 /* Mobile Nav Toggle */
 #mobile-nav-toggle {

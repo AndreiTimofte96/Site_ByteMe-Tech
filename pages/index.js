@@ -9,11 +9,13 @@ import Team from '../components/Team.js'
 import Contact from '../components/Contact.js'
 import Footer from '../components/footer.js'
 import Header from '../components/header.js'
+import StickyHeader from '../components/stickyHeader.js'
 
 const Index = () => (
+
   <HomeLayout>
     <Home />
-    <Header />
+    <StickyHeader />
     <About />
     <Services />
     <Technologies />
@@ -22,5 +24,5 @@ const Index = () => (
     <Footer />
   </HomeLayout>
 )
-
 export default Index
+

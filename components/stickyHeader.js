@@ -3,6 +3,11 @@ import Link from 'next/link'
 const Header = () => (
   
   	<div>
+
+  	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script type="text/javascript" src="static/script.js" ></script>
+
+
 	  <link href="static/img/favicon.ico" rel="shortcut icon"/>	  
 	  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet"/> 
 	  <link href="static/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet"/> 
