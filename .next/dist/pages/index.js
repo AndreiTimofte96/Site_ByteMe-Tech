@@ -8,6 +8,10 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _link = require('next/dist/lib/link.js');
+
+var _link2 = _interopRequireDefault(_link);
+
 var _homeLayout = require('../components/homeLayout.js');
 
 var _homeLayout2 = _interopRequireDefault(_homeLayout);
@@ -16,14 +20,42 @@ var _layout = require('../components/layout.js');
 
 var _layout2 = _interopRequireDefault(_layout);
 
-var _link = require('next/dist/lib/link.js');
+var _Home = require('../components/Home.js');
 
-var _link2 = _interopRequireDefault(_link);
+var _Home2 = _interopRequireDefault(_Home);
+
+var _About = require('../components/About.js');
+
+var _About2 = _interopRequireDefault(_About);
+
+var _Services = require('../components/Services.js');
+
+var _Services2 = _interopRequireDefault(_Services);
+
+var _Technologies = require('../components/Technologies.js');
+
+var _Technologies2 = _interopRequireDefault(_Technologies);
+
+var _Team = require('../components/Team.js');
+
+var _Team2 = _interopRequireDefault(_Team);
+
+var _Contact = require('../components/Contact.js');
+
+var _Contact2 = _interopRequireDefault(_Contact);
+
+var _footer = require('../components/footer.js');
+
+var _footer2 = _interopRequireDefault(_footer);
+
+var _header = require('../components/header.js');
+
+var _header2 = _interopRequireDefault(_header);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Index = function Index() {
-  return _react2.default.createElement(_homeLayout2.default, null, _react2.default.createElement('div', null, _react2.default.createElement('link', { href: 'favicon.ico', rel: 'shortcut icon' }), _react2.default.createElement('link', { href: 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800', rel: 'stylesheet' }), _react2.default.createElement('link', { href: 'static/lib/bootstrap/css/bootstrap.min.css', rel: 'stylesheet' }), _react2.default.createElement('link', { href: 'static/lib/font-awesome/css/font-awesome.min.css', rel: 'stylesheet' }), _react2.default.createElement('link', { href: 'static/lib/animate-css/animate.min.css', rel: 'stylesheet' }), _react2.default.createElement('link', { href: 'static/css/style.css', rel: 'stylesheet' }), _react2.default.createElement('section', { id: 'hero' }, _react2.default.createElement('div', { className: 'hero-container' }, _react2.default.createElement('div', { className: 'wow fadeIn' }, _react2.default.createElement('div', { className: 'hero-logo' }, _react2.default.createElement('img', { className: '', src: 'static/img/logo_byteme.svg', alt: 'ByteMe-Tech' })), _react2.default.createElement('h1', null, 'Welcome to ByteMe-Tech'), _react2.default.createElement('div', { className: 'actions' }, _react2.default.createElement('a', { href: '/about', className: 'btn-get-started' }, 'Get Started'), _react2.default.createElement('a', { href: '/services', className: 'btn-services' }, 'Our Services')))))));
+  return _react2.default.createElement(_homeLayout2.default, null, _react2.default.createElement(_Home2.default, null), _react2.default.createElement(_header2.default, null), _react2.default.createElement(_About2.default, null), _react2.default.createElement(_Services2.default, null), _react2.default.createElement(_Technologies2.default, null), _react2.default.createElement(_Team2.default, null), _react2.default.createElement(_Contact2.default, null), _react2.default.createElement(_footer2.default, null));
 };
 
 exports.default = Index;
