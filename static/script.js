@@ -1,43 +1,23 @@
 jQuery(document).ready(function() {
 	
-	var navOffset = jQuery("header").offset().top;
-
-	jQuery(window).scroll(function(){
-
-		var scrollPos = jQuery(window).scrollTop();
-
-		if (scrollPos >= navOffset){
-			jQuery("header").addClass("fixed");
-		}
-		else{
-			jQuery("header").removeClass("fixed");
-		}
-
-	});
-
-
-});
-
-/*jQuery(document).ready(function() {
-	
 	// define variables
-	var navOffset, scrollPos = 0;
+	var headerOffset, scrollPos = 0;
 	
 	// add utility wrapper elements for positioning
-	jQuery("nav").wrap('<div class="nav-placeholder"></div>');
-	jQuery("nav").wrapInner('<div class="nav-inner"></div>');
-	jQuery(".nav-inner").wrapInner('<div class="nav-inner-most"></div>');
+	jQuery("header").wrap('<div class="header-placeholder"></div>');
+	jQuery("header").wrapInner('<div class="header-inner"></div>');
+	jQuery(".header-inner").wrapInner('<div class="header-inner-most"></div>');
 	
 	// function to run on page load and window resize
 	function stickyUtility() {
 		
-		// only update navOffset if it is not currently using fixed position
-		if (!jQuery("nav").hasClass("fixed")) {
-			navOffset = jQuery("nav").offset().top;
+		// only update headerOffset if it is not currently using fixed position
+		if (!jQuery("header").hasClass("fixed")) {
+			headerOffset = jQuery("header").offset().top;
 		}
 		
-		// apply matching height to nav wrapper div to avoid awkward content jumps
-		jQuery(".nav-placeholder").height(jQuery("nav").outerHeight());
+		// apply matching height to header wrapper div to avoid awkward content jumps
+		jQuery(".header-placeholder").height(jQuery("header").outerHeight());
 		
 	} // end stickyUtility function
 	
@@ -54,12 +34,12 @@ jQuery(document).ready(function() {
 		
 		scrollPos = jQuery(window).scrollTop();
 		
-		if (scrollPos >= navOffset) {
-			jQuery("nav").addClass("fixed");
+		if (scrollPos >= headerOffset) {
+			jQuery("header").addClass("fixed");
 		} else {
-			jQuery("nav").removeClass("fixed");
+			jQuery("header").removeClass("fixed");
 		}
 		
 	});
 	
-});*/
+});		

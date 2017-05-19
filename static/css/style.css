@@ -356,7 +356,14 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
+.fixed .nav-inner {
+  padding 0 20px;
+}
 
+.fixed .nav-inner-most {
+  max-width: 700px;
+  margin: 0 auto;
+}
 
 /* Mobile Nav Toggle */
 #mobile-nav-toggle {
