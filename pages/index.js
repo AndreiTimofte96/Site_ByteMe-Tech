@@ -10,10 +10,12 @@ import Contact from '../components/Contact.js'
 import Footer from '../components/footer.js'
 import Header from '../components/header.js'
 import StickyHeader from '../components/stickyHeader.js'
+import Mobile from '../components/mobile.js'
 
 const Index = () => (
 
   <HomeLayout>
+    <Mobile/>
     <Home />
     <StickyHeader />
     <About />

@@ -56,9 +56,66 @@ var _stickyHeader = require('../components/stickyHeader.js');
 
 var _stickyHeader2 = _interopRequireDefault(_stickyHeader);
 
+var _mobile = require('../components/mobile.js');
+
+var _mobile2 = _interopRequireDefault(_mobile);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var _jsxFileName = '/home/timi/Documents/ByteMe-Tech/NextJs/site_ByteMe-tech/pages/index.js?entry';
+
+
 var Index = function Index() {
-  return _react2.default.createElement(_homeLayout2.default, null, _react2.default.createElement(_Home2.default, null), _react2.default.createElement(_stickyHeader2.default, null), _react2.default.createElement(_About2.default, null), _react2.default.createElement(_Services2.default, null), _react2.default.createElement(_Technologies2.default, null), _react2.default.createElement(_Team2.default, null), _react2.default.createElement(_Contact2.default, null), _react2.default.createElement(_footer2.default, null));
+  return _react2.default.createElement(_homeLayout2.default, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    }
+  }, _react2.default.createElement(_mobile2.default, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    }
+  }), _react2.default.createElement(_Home2.default, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    }
+  }), _react2.default.createElement(_stickyHeader2.default, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    }
+  }), _react2.default.createElement(_About2.default, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    }
+  }), _react2.default.createElement(_Services2.default, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    }
+  }), _react2.default.createElement(_Technologies2.default, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    }
+  }), _react2.default.createElement(_Team2.default, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    }
+  }), _react2.default.createElement(_Contact2.default, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    }
+  }), _react2.default.createElement(_footer2.default, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    }
+  }));
 };
 exports.default = Index;
