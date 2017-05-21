@@ -20,7 +20,7 @@ const Home = () => (
 		            <img className="" src="static/img/logo_byteme.svg" alt="ByteMe-Tech"/>
 		          </div>
 		        
-		          <h1>Welcome to ByteMe-Tech</h1>
+		          <h1 className="title">Welcome to ByteMe-Tech</h1>
 
 	        	</div>
 	      	  </div>

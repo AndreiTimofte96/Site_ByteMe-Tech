@@ -95,8 +95,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-logo-mobile{
-  margin: 443px 0 45px 0;;
+  margin: 443px 0 45px 0;
 }
+
+#hero .title{
+  font-size: 55px;
+}
+
 
 
 #hero .hero-logo-mobile img {
