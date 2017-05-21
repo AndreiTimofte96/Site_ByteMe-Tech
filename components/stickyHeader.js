@@ -1,4 +1,5 @@
 import Link from 'next/link'
+var MediaQuery = require('react-responsive');
  
 const Header = () => (
   
@@ -24,7 +25,9 @@ const Header = () => (
 		        	<img src="static/img/logo.png" alt="" title="" />
 		        </a>
 		      </div>
-		       
+		     
+		    <MediaQuery minDeviceWidth={1224} values={{deviceWidth: 1600}}>
+
 		      <nav id="nav-menu-container">
 		        <ul className="nav-menu">
 
@@ -65,6 +68,7 @@ const Header = () => (
 		          	</li>
 		        </ul>
 		      </nav>
+		    </MediaQuery>
 		    </div>
 	  	</header>   
 	</div>

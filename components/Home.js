@@ -1,4 +1,5 @@
 import Link from 'next/link'
+var MediaQuery = require('react-responsive');
 
 const Home = () => (
 
@@ -11,21 +12,39 @@ const Home = () => (
 	    <link href="static/css/style.css" rel="stylesheet"/>
 	    <title>ByteMe-Tech</title>
 	    
-	    <section id="hero">
-	      <div className="hero-container">
-	        <div className="wow fadeIn">
-	          <div className="hero-logo">
-	            <img className="" src="static/img/logo_byteme.svg" alt="ByteMe-Tech"/>
-	          </div>
-	        
-	          <h1>Welcome to ByteMe-Tech</h1>
-	          <div className="actions">
-	            <a href="/about" className="btn-get-started">Get Started</a>
-	            <a href="/services" className="btn-services">Our Services</a>
-	          </div>
-	        </div>
-	      </div>
-	    </section>
+	     <MediaQuery maxDeviceWidth={1224}>
+         	<section id="hero">
+		      <div className="hero-container">
+		        <div className="wow fadeIn">
+		          <div className="hero-logo-mobile">
+		            <img className="" src="static/img/logo_byteme.svg" alt="ByteMe-Tech"/>
+		          </div>
+		        
+		          <h1>Welcome to ByteMe-Tech</h1>
+
+	        	</div>
+	      	  </div>
+	    	</section> 
+        </MediaQuery>
+
+        <MediaQuery minDeviceWidth={1224} values={{deviceWidth: 1600}}>
+		    <section id="hero">
+		      <div className="hero-container">
+		        <div className="wow fadeIn">
+		          <div className="hero-logo">
+		            <img className="" src="static/img/logo_byteme.svg" alt="ByteMe-Tech"/>
+		          </div>
+		        
+		          <h1>Welcome to ByteMe-Tech</h1>
+
+		          <div className="actions">
+		            <a href="/about" className="btn-get-started">Get Started</a>
+		            <a href="/services" className="btn-services">Our Services</a>
+		          </div>		           
+	        	</div>
+	      	  </div>
+	    	</section>
+	    </MediaQuery>
   </div>
 )
 
