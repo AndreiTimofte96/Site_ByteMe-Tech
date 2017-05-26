@@ -1,5 +1,4 @@
 import Link from 'next/link'
-var MediaQuery = require('react-responsive');
  
 const Header = () => (
   
@@ -7,6 +6,10 @@ const Header = () => (
 
   	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script type="text/javascript" src="static/script.js" ></script>
+      <meta charset="utf-8"/>
+  	  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+      <meta content="" name="keywords"/>
+      <meta content="" name="description"/>
 
 
 	  <link href="static/img/favicon.ico" rel="shortcut icon"/>	  
@@ -25,9 +28,7 @@ const Header = () => (
 		        	<img src="static/img/logo.png" alt="" title="" />
 		        </a>
 		      </div>
-		     
-		    <MediaQuery minDeviceWidth={1224} values={{deviceWidth: 1600}}>
-
+		       
 		      <nav id="nav-menu-container">
 		        <ul className="nav-menu">
 
@@ -68,7 +69,6 @@ const Header = () => (
 		          	</li>
 		        </ul>
 		      </nav>
-		    </MediaQuery>
 		    </div>
 	  	</header>   
 	</div>

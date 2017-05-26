@@ -14,6 +14,7 @@ import StickyHeader from '../components/stickyHeader.js'
 const Index = () => (
 
   <HomeLayout>
+
     <Home />
     <StickyHeader />
     <About />
